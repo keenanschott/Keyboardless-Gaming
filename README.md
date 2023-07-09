@@ -1,4 +1,4 @@
-# Keyboardless-Gaming
+# Keyboardless Gaming
 
 ## Setup
 
