@@ -2,7 +2,7 @@
 
 ## Setup
 
-A valid [Python](https://www.python.org/downloads/) installation, [SpeechRecognition](https://pypi.org/project/SpeechRecognition/), [Dotenv](https://pypi.org/project/python-dotenv/), and a few other miscellaneous libraries. A [wit.ai](https://wit.ai/) API key will also be needed; this can also be substituted for other speech recognition endpoints, see [here](https://github.com/Uberi/speech_recognition/blob/master/examples/audio_transcribe.py) for an example.
+A valid [Python](https://www.python.org/downloads/) installation, [SpeechRecognition](https://pypi.org/project/SpeechRecognition/), [Dotenv](https://pypi.org/project/python-dotenv/), and a few other miscellaneous libraries. A [wit.ai](https://wit.ai/) API key will also be needed; this can also be substituted for other speech recognition endpoints, see [here](https://github.com/Uberi/speech_recognition/blob/master/examples/audio_transcribe.py) for an example. Moreover, be sure to start the program before you open and run your game of choice.
 
 ## Minecraft
 
