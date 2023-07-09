@@ -8,6 +8,8 @@ A valid [Python](https://www.python.org/downloads/) installation, [SpeechRecogni
 
 The program assumes default key bindings, sneak to be on a toggle, and sprint to be a held key. The voice commands are as follow:
 
+<center>
+
 | Voice Command         | Result     |
 |-----------------------|------------|
 | Jump                  | The player will jump once.       |
@@ -23,3 +25,5 @@ The program assumes default key bindings, sneak to be on a toggle, and sprint to
 | Players | In multiplayer, the list of players will open. |
 | Close | In multiplayerm, the list of players will close. |
 | Stop | The player will stop all movement. |
+
+</center>
