@@ -6,8 +6,7 @@ A valid [Python](https://www.python.org/downloads/) installation, [SpeechRecogni
 
 ## Minecraft
 
-The program assumes default key bindings, sneak to be on a toggle, and sprint to be a held key. The voice commands are as follow:
-
+The program assumes default key bindings, sneak to be on a toggle, and sprint to be a held key. The voice commands are as follows:
 
 | Voice Command | Result |
 |---------------|--------|
@@ -25,3 +24,16 @@ The program assumes default key bindings, sneak to be on a toggle, and sprint to
 | Close | In multiplayerm, the list of players will close. |
 | Stop | The player will stop all movement. |
 
+## League of Legends
+
+The program assumes default key bindings with the exception of the "R" ability, which I have binded to "T". The voice commands are as follows:
+
+| Voice Command | Result |
+|---------------|--------|
+| One | The player will use the "Q" ability. |
+| Two | The player will use the "W" ability. |
+| Three | The player will use the "E" ability. |
+| Four | The player will use the "R" ability. |
+| Five | The player will use the summoner spell in the first slot. |
+| Six | The player will use the summoner spell in the second slot. |
+| Shop | The player will open/close the shop. |
