@@ -6,17 +6,17 @@ import os
 import sys
 
 # to change the game, change the import statement below
-from games.minecraft import key_press
+from games.league import key_press
 
 def recognize_speech():
     try:
         init_rec = sr.Recognizer()
         global api_key # grab the API key from the global variable
         with sr.Microphone() as source:
-            audio_data = init_rec.record(source, duration = 1.25) # record for 1 second
+            audio_data = init_rec.record(source, duration = 1) # record for 1 second
             text = init_rec.recognize_wit(audio_data, key=api_key).lower() # recognize the speech using Wit.ai
             key_press(text) # call the key_press function from the selected game
-            # print(text) # used to see output for validation
+            print(text) # used to see output for validation
     except sr.UnknownValueError:
         pass
     except sr.RequestError as e:
@@ -37,7 +37,7 @@ while True:
         for thread in threads:
             thread = threading.Thread(target=recognize_speech) 
             thread.start() # start the thread
-            time.sleep(1.25) # wait 1 second before starting the next thread
+            time.sleep(1.1) # wait 1 second before starting the next thread
         # Wait for all threads to finish
         for thread in threads:
             if thread.is_alive():
